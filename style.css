@@ -1,9 +1,12 @@
 body {
+  background-color: #b9fac2;
   width: min(90%, 1200px);
   margin: auto;
   font-family: "IBM Plex Sans", sans-serif;
+
 }
 
 .container {
   text-align: center;
+  background-color: #30c555;
 }
