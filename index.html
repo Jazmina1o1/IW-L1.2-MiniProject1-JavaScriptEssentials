@@ -12,8 +12,22 @@
       <p>Open your browser's developer tools to see the console.</p>
     </div>
     <div class="container">
-      <p>Variables: Variables are </p>
-      <img src="https://github.com/Jazmina1o1/images/blob/main/99869fdd605927b266288a629426e035.jpg?raw=true" alt="fyodr"width="300" height="200"/>
+      <p id="variableMessage">Variables store information in JavaScript.</p>
+      <button id="colorButton">Change the button color</button>
+      <img src="https://github.com/Jazmina1o1/images/blob/main/99869fdd605927b266288a629426e035.jpg?raw=true" alt="fyodr" width="300" height="200" />
+<script>
+    let clickCount = 0;
+    const button = document.getElementById("colorButton");
+    const message = document.getElementById("variableMessage");
+
+   button.addEventListener("click", function () {
+    clickCount++;
+    const colors = ["lightblue", "lightgreen", "lightpink", "gold"];
+    button.style.backgroundColor = colors[clickCount % colors.length];
+     message.textContent = "The variable clickCount is now " + clickCount + ".";
+        });
+      </script>
+    </div>
       
   </body>
 </html>

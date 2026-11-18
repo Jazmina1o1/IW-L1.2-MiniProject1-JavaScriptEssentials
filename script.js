@@ -141,6 +141,8 @@ const isBeyonce = (name) => {
         return `Sorry ${name}, you're not Beyonce...`;
     }
 }
+// reminds me of that one meme THANK YOU BEYONCE andd then a purple heart at the end
+
 // Test "Beyonce" and other names to ensure it works
 console.log(`13b. ${isBeyonce("Beyonce")}`);
 console.log(`13b. ${isBeyonce("FYODOR")}`);
@@ -214,7 +216,7 @@ if (meals === 0) {
 
 console.log(`16. ${buyMeals(20)}`);
 console.log(`16. ${buyMeals(5)}`);
-
+// I want food now THANKS A LOT...
 
 
 // 17. [Challenge] Write a function missingLeg(side1, side2) that takes in the length of a hypotenuse and a leg of a right triangle and prints out the missing leg's length
@@ -228,7 +230,7 @@ const missingLeg = (side1, side2) => {
     if (hypotenuse === leg) {
         return 0;
     }
-
+//math.sqrt and max just number size/vaule related wow
     return Math.sqrt((hypotenuse * hypotenuse) - (leg * leg));
 }
 
@@ -253,7 +255,8 @@ const factorial = (x) => {
     }
     return result;
 }
+//just added this one as an eample to the first one maybe
 console.log(`18. example only factorial(3) = ${factorial(3)}`);
+
 console.log(`18. factorial(5) = ${factorial(5)}`);
 console.log(`18. factorial(0) = ${factorial(0)}`);
-
